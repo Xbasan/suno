@@ -5,10 +5,10 @@ import telebot
 from telebot import types
 
 
-bot = telebot.TeleBot('6970241781:AAH06kLT31wwFgnzfI0E1sfPAdbYrkoBKFw')
+bot = telebot.TeleBot('')
 
 music_generate = api()
-music_generate.token('jxwokL4IG9tMcuJm3NCih')
+music_generate.token()
 
 
 @bot.message_handler(commands=['start'])
